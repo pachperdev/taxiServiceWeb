@@ -8,11 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css" media="only screen and (min-width:768px)">
+    <link rel="stylesheet" href="desktop.css" media="only screen and (min-width:1024px)">
     <title>Taxi Service | Real Time</title>
     <style>
         #map {
             width: 100%;
-            height: 400px;
+            height: 540px;
             box-shadow: 5px 5px 5px #888;
         }
     </style>
