@@ -45,12 +45,12 @@
             <h2>Historical Travels</h2>
             <div class="head">
                 <center>
-                    <label for="start">Desde:</label>
+                    <label for="start">Desde:</label><br>
                     <input type="date" id="FechaIn" name="FechaIn" value="2021-10-07" min="2021-01-01" max="2022-12-31">
-
+                    
                     <input type="time" id="MinIn" name="MinIn" value="02:30" min="00:00" max="24:00" required>
                     <br><br>
-                    <label for="appt">Hasta:</label>
+                    <label for="appt">Hasta:</label><br>
                     <input type="date" id="FechaFn" name="FechaFn" value="2021-10-07" min="2021-01-01" max="2022-12-31">
 
                     <input type="time" id="MinFn" name="MinFn" value="23:30" min="00:00" max="24:00" required>
